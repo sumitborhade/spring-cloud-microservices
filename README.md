@@ -2,7 +2,7 @@
 This code repository was created by following the steps mentioned by [OMAR ELGABRY](https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-creating-our-microserivces-gateway-part-2-31f8aa6b215b) <br>
 Special Thank you to him.
 
-**Eureka Server:**
+##Eureka Server:
 This server is implemented by following below-
 1. Adding Spring-boot-starter-web and Eureka-Server dependencies
 2. Marking @EnableEurekaServer annotation on main class
