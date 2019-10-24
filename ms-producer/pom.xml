@@ -10,12 +10,8 @@
 		<version>${ms-version}</version>
 	</parent>
 	
-	<artifactId>ms-eureka-server</artifactId>
-	<description>This is Microservices Eureka Server</description>
-
-	<properties>
-		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
-	</properties>
+	<artifactId>ms-producer</artifactId>
+	<description>This is Microservices Producer using Spring Boot</description>
 
 	<dependencies>
 		<!-- Spring boot web -->
@@ -24,12 +20,11 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
-		<!-- Eureka Server -->
+		<!-- Eureka Client -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-
 	</dependencies>
 
 	<build>

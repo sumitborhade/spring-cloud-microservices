@@ -13,35 +13,17 @@
 
 	<groupId>com.sumit</groupId>
 	<artifactId>microservices-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${ms-version}</version>
 	<name>microservices-parent</name>
 	<description>This is Microservices Repository</description>
 	<packaging>pom</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
-		<spring-cloud.version>Hoxton.M3</spring-cloud.version>
+		<spring-cloud.version>Greenwich.SR3</spring-cloud.version>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		<ms-version>0.0.1-SNAPSHOT</ms-version>
 	</properties>
-	
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-	</dependencies>
 	
 	<dependencyManagement>
 		<dependencies>
@@ -65,5 +47,6 @@
 
 	<modules>
 		<module>ms-eureka-server</module>
+		<module>ms-producer</module>
 	</modules>
 </project>
