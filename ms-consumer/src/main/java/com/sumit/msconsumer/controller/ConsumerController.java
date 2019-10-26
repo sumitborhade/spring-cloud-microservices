@@ -14,7 +14,7 @@ public class ConsumerController {
 	@Autowired
 	private RestTemplate restTemplate;
 
-	@GetMapping("/consumerMessage")
+	@GetMapping("/consumeMessage")
 	public MessageInfo consumeMessage(@RequestParam(name = "name") String name) {
 		String url = "http://ms-producer/generateMessage?name=" + name;
 		MessageInfo messageInfo = restTemplate.getForObject(url, MessageInfo.class);
