@@ -6,4 +6,4 @@ Special Thanks to him.
 ## [Microservice Producer:](ms-producer/README.md#microservice-producer)
 
 
-## <a href="ms-eureka-server/README.md#eureka-server" target="_blank">Eureka Server</a> 
+## <a href="https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-creating-our-microserivces-gateway-part-2-31f8aa6b215b" target="_blank">Eureka Server</a> 
