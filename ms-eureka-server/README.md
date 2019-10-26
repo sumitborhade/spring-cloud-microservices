@@ -11,7 +11,7 @@ spring.application.name=eureka-server
 server.port=8761
 
 # eureka by default will register itself as a client. So, we need to set it to false.
-# What's a client server? See other microservices (image, gallery, auth, etc).
+# What's a client server? See other microservices (ms-producer, ms-consumer etc).
 eureka.client.register-with-eureka=false
 eureka.client.fetch-registry=false
 ````
