@@ -49,5 +49,6 @@
 		<module>ms-eureka-server</module>
 		<module>ms-producer</module>
 		<module>ms-consumer</module>
+		<module>ms-zuul</module>
 	</modules>
 </project>
