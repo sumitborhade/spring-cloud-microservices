@@ -1,7 +1,5 @@
 # Spring Cloud for building Microservices
-This code repository was created by following the steps mentioned by [OMAR ELGABRY](https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-creating-our-microserivces-gateway-part-2-31f8aa6b215b) {:target="_blank"}
-<br>
-<a href="https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-creating-our-microserivces-gateway-part-2-31f8aa6b215b" target="_blank">OMAR ELGABRY</a> 
+This code repository was created by following the steps mentioned by [OMAR ELGABRY](https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-creating-our-microserivces-gateway-part-2-31f8aa6b215b){:target="_blank"}
 <br>
 Special Thanks to him.
 
