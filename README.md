@@ -9,7 +9,5 @@ Special Thanks to him.
 ## [Microservice Consumer:](ms-consumer/README.md#microservice-consumer)
 ## [Zuul as Proxy Gateway:](ms-zuul/README.md#zuul-proxy-gateway)
 
-## Spring Cloud Architecture (Reference : https://spring.io) 
-
-<br/>
+## Spring Cloud Architecture (Reference : https://spring.io)
 ![Spring Cloud Architecture](diagram-distributed-systems.svg)
